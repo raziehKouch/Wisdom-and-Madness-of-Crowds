@@ -25,7 +25,7 @@ Good luck, and thanks again!
 -->
 
 <!DOCTYPE html>
-<html lang="fa"> <!-- lang="(TRANSLATE: set your language code here, same as the page name!) e.g: es, es-ES, pt-BR, ja, it, fr-CA, de, ..." -->
+<html lang="fa" dir="rtl"> <!-- lang="(TRANSLATE: set your language code here, same as the page name!) e.g: es, es-ES, pt-BR, ja, it, fr-CA, de, ..." -->
 <head>
 
 	<!-- Meta Info -->
@@ -70,146 +70,147 @@ Good luck, and thanks again!
 	<meta property="og:image" content="http://ncase.me/crowds/social/thumb.png">
 
 	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="css/index.css?v=7">
+	<link rel="stylesheet" type="text/css" href="css/index-fa.css?v=7">
 
 </head>
 <body>
 
-	<!-- THE SLIDESHOW -->
-	<div id="container">
+<!-- THE SLIDESHOW -->
+<div id="container">
 
-		<!-- Simulation(s) in background -->
-		<div id="simulations_container">
-			<div id="simulations"></div>
-		</div>
+	<!-- Simulation(s) in background -->
+	<div id="simulations_container">
+		<div id="simulations"></div>
+	</div>
 
-		<!-- Slideshow: words & buttons -->
-		<div id="slideshow_container">
-			<div id="slideshow"></div>
-		</div>
+	<!-- Slideshow: words & buttons -->
+	<div id="slideshow_container">
+		<div id="slideshow"></div>
+	</div>
 
-		<!-- Scratch Transition -->
-		<canvas id="scratch" width="711" height="400"></canvas>
+	<!-- Scratch Transition -->
+	<canvas id="scratch" width="711" height="400"></canvas>
 
-		<!-- Skip -->
-		<div id="skip">رد کردن &gt;</div> <!-- TRANSLATE -->
+	<!-- Skip -->
+	<div id="skip">رد کردن &gt;</div> <!-- TRANSLATE -->
 
-		<!-- Modal -->
-		<div id="modal_container">
-			<div id="modal_bg"></div>
-			<div id="modal">
-				<div id="modal_close">⨯</div>
-				<div id="modal_content_container">
-					<div id="modal_content"></div>
-				</div>
+	<!-- Modal -->
+	<div id="modal_container">
+		<div id="modal_bg"></div>
+		<div id="modal">
+			<div id="modal_close">⨯</div>
+			<div id="modal_content_container">
+				<div id="modal_content"></div>
 			</div>
 		</div>
-
 	</div>
-	
-	<!-- Navigation: Audio, Contents, Share, Translations -->
-	<div id="navigation_container">
-		<div id="sound" mute="no">
-			<div id="sound_icon"></div>
-			<span id="sound_on">روشن</span> <!-- TRANSLATE -->
-			<span id="sound_off">خاموش</span> <!-- TRANSLATE -->
-		</div>
-		<div id="sharing">
-			<a id="fb" target="_blank" href="TODO"></a>
-			<a id="tw" target="_blank" href="TODO"></a>
-			<a id="em" target="_blank" href="TODO"></a>
-			<span id="share_title">
+
+</div>
+
+<!-- Navigation: Audio, Contents, Share, Translations -->
+<div id="navigation_container">
+	<div id="sound" mute="no" dir="ltr">
+		<div id="sound_icon"></div>
+		<span id="sound_on">روشن</span> <!-- TRANSLATE -->
+		<span id="sound_off">خاموش</span> <!-- TRANSLATE -->
+	</div>
+	<div id="sharing">
+		<a id="fb" target="_blank" href="TODO"></a>
+		<a id="tw" target="_blank" href="TODO"></a>
+		<a id="em" target="_blank" href="TODO"></a>
+		<span id="share_title">
 			جنون و خرد جمعی <!-- TRANSLATE -->
 			</span>
-			<span id="share_desc">
+		<span id="share_desc">
 			<!-- TRANSLATOR: keep this on ONE LINE or the social sharing will break! -->
 			چرا جمع‌های انسانی هوشمندانه، احمقانه، مهربانه، یا ظالمانه رفتار می‌کنند؟ راهنمای تعاملی شبکه‌های انسانی: <!-- TRANSLATE -->
 			</span>
+	</div>
+	<div id="navigation">
+
+		<!-- The chapters -->
+		<!-- TRANSLATE all the Chapter names! -->
+		<div chapter="Introduction">
+			<span>0</span>
+			<span>0. مقدمه</span>
 		</div>
-		<div id="navigation">
+		<div chapter="Networks">
+			<span>1</span>
+			<span>1. ارتباطات</span>
+		</div>
+		<div chapter="Simple">
+			<span>2</span>
+			<span>2. واگیری</span>
+		</div>
+		<div chapter="Complex">
+			<span>3</span>
+			<span>3. واگیری پیچیده</span>
+		</div>
+		<div chapter="BB">
+			<span>4</span>
+			<span>4. Bonding &amp; Bridging</span> <!-- note: &amp; is html for the "and" sign -->
+		</div>
+		<div chapter="SmallWorld">
+			<span>5</span>
+			<span>5. دنیای کوچیکیه!</span>
+		</div>
+		<div chapter="Conclusion">
+			<span>6</span>
+			<span>6. در نتیجه...</span>
+		</div>
+		<div chapter="Credits">
+			<span>7</span>
+			<span>7. دست‌اندرکاران</span>
+		</div>
+		<div chapter="Sandbox">
+			<span style="font-family: PatrickHand;">★</span>
+			<span>★ زمین بازی! ★</span>
+		</div>
 
-			<!-- The chapters -->
-			<!-- TRANSLATE all the Chapter names! -->
-			<div chapter="Introduction">
-				<span>0</span>
-				<span>0. مقدمه</span>
-			</div>
-			<div chapter="Networks">
-				<span>1</span>
-				<span>1. ارتباطات</span>
-			</div>
-			<div chapter="Simple">
-				<span>2</span>
-				<span>2. واگیری</span>
-			</div>
-			<div chapter="Complex">
-				<span>3</span>
-				<span>3. واگیری پیچیده</span>
-			</div>
-			<div chapter="BB">
-				<span>4</span>
-				<span>4. Bonding &amp; Bridging</span> <!-- note: &amp; is html for the "and" sign --> بعد
-			</div>
-			<div chapter="SmallWorld">
-				<span>5</span>
-				<span>5. دنیای کوچیکیه!</span>
-			</div>
-			<div chapter="Conclusion">
-				<span>6</span>
-				<span>6. در نتیجه...</span>
-			</div>
-			<div chapter="Credits">
-				<span>7</span>
-				<span>7. دست‌اندرکاران</span>
-			</div>
-			<div chapter="Sandbox">
-				<span>★</span>
-				<span>★ زمین بازی! ★</span>
-			</div>
+		<!-- A divider -->
+		<span class="nav_divider"></span>
 
-			<!-- A divider -->
-			<span class="nav_divider"></span>
-			
-			<!-- Bonus Notes & References -->
-			<div modal="bonus">
-				<span>?</span>
-				<span>بیشتر بدانیم ها!</span> <!-- TRANSLATE -->
-			</div>
-			<div modal="references">
-				<span style="margin-top: 7px; font-size: 35px;">*</span>
-				<span>لینک‌ها و مراجع</span> <!-- TRANSLATE -->
-			</div>
-			<div modal="translations">
-			<span style="margin-top:5px; position:relative;"><span style="
+		<!-- Bonus Notes & References -->
+		<div modal="bonus">
+			<span style="font-family: PatrickHand;">?</span>
+			<span>بیشتر بدانیم ها!</span> <!-- TRANSLATE -->
+		</div>
+		<div modal="references">
+			<span style="font-family: PatrickHand; margin-top: 7px; font-size: 35px;">*</span>
+			<span>لینک‌ها و مراجع</span> <!-- TRANSLATE -->
+		</div>
+		<div modal="translations">
+			<span style="font-family: PatrickHand; margin-top:5px; position:relative;"><span style="font-family: PatrickHand;
 				    position: absolute;
+					font-size: 16px;
 				    top: -8px;
 				    left: 6px;
-				">A</span><span style="
+				">A</span><span style="font-family: PatrickHand;
 				    position: absolute;
-				    font-size: 16px;
+				    font-size: 14px;
 				    top: -1px;
 				    left: 16px;
 				">あ</span></span>
-				<span>سایر زبان‌ها</span> <!-- TRANSLATE -->
-			</div>
-
-			<!-- The hover bubble -->
-			<span id="nav_bubble"></span>
-			
+			<span>ترجمه ها</span> <!-- TRANSLATE -->
 		</div>
-		<div id="translations"></div>
-		<div id="social"></div>
-	</div>
-	
-	<!-- The Pencil -->
-	<div id="pencil_container">
-		<canvas id="pencil"></canvas>
-	</div>
 
-	<!-- Preloader -->
-	<div id="pre_preloader">
-		<div>یکم صبر...</div> <!-- TRANSLATE -->
+		<!-- The hover bubble -->
+		<span id="nav_bubble"></span>
+
 	</div>
+	<div id="translations"></div>
+	<div id="social"></div>
+</div>
+
+<!-- The Pencil -->
+<div id="pencil_container">
+	<canvas id="pencil"></canvas>
+</div>
+
+<!-- Preloader -->
+<div id="pre_preloader">
+	<div>یکم صبر...</div> <!-- TRANSLATE -->
+</div>
 
 </body>
 </html>
@@ -260,7 +261,7 @@ Good luck, and thanks again!
 <!-- THE SLIDESHOW'S WORDS -->
 <!-- - - - - - - - - - - - -->
 
-<!-- 
+<!--
 This is the bulk of what you need to TRANSLATE!
 Translate just the text that's within the <tag></tags>
 If you're using a code editor (like Sublime Text https://www.sublimetext.com/),
@@ -276,20 +277,19 @@ it should automatically highlight what the text is (usually in white).
 	<div style="font-size: 30px;">
 		<span></span>
 		<br>
-		<span style="font-size: 60px;letter-spacing: 4px;">جنون</span>
+		<span style="font-size: 60px;">جنون</span>
 		<span style="position:relative;top: -10px;">و</span>
 		<span style="font-size: 60px;">خرد</span>
 		<br>
-		<span style="position: relative;top: -11px;"></span>
-		<br>
-		<span style="font-size: 100px;line-height: 80px;position: relative;top: -15px; display:block;">جمعی</span>
+		<span style="font-size: 80px;line-height: 80px;position: relative;top: -15px; display:block;">جمعی</span>
 	</div>
 
-	<div style="color:#999">
+	<div style="font-size: 18px; color:#999">
 		<!-- TRANSLATE note: comment out the line below... -->
-		<!-- playing time: 30 min • by nicky case, april 2018 -->
+		by nicky case, april 2018 • زمان بازی: 30 دقیقه
+		<br>
 		<!-- ...and UN-comment + TRANSLATE this line! -->
-		by nicky case • ترجمه راضیه کوچک‌زاده • <a href='.'>نسخه اصلی انگلیسی</a>
+		ترجمه راضیه کوچک‌زاده • <a href='.'>نسخه اصلی انگلیسی</a>
 	</div>
 
 </words>
@@ -299,44 +299,44 @@ it should automatically highlight what the text is (usually in white).
 </words>
 
 <words id="preloader_loading">
-	loading...
+	صبر...
 </words>
 
 <words id="preloader_play">
-	let's play! <div class="rarr"></div> 
+	شروع بازی! <div class="larr"></div>
 </words>
 
-<!-- Introduction -->
-<!--
-TRANSLATE note: to make the text stay in a circle, I added lots of <br> breaks.
-You may have to re-arrange the <br>'s in order to do your translation.
-It shouldn't look too bad if they're slightly off, though!
-Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
--->
+	<!-- Introduction -->
+	<!--
+    TRANSLATE note: to make the text stay in a circle, I added lots of <br> breaks.
+    You may have to re-arrange the <br>'s in order to do your translation.
+    It shouldn't look too bad if they're slightly off, though!
+    Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
+    -->
 
 <words id="intro">
 
 	<br><br>
 
-	Sir Isaac Newton was pretty sure he was a
+	جناب اسحاق نیوتون فکر می‌کرد خیلی عقل کله.
 	<br>
-	smart cookie. I mean, after inventing calculus and
+	منظورم اینه که بعد از اختراع علم حساب و معرفی نظریه گرانش،
 	<br>
-	a theory of gravity, he should be clever enough to do
+	احتمالا باید اینقدر باهوش می‌بود که بتونه یه سرمایه گذاری مالی خوب
 	<br>
-	some financial investing, right? Anyway, long story short, he
+	بکنه دیگه، نه؟ به هر حال داستان اینه که عوضش پولی به ارزش
 	<br>
-	lost $4,600,000 (in today's dollars) in the nationwide
+	4،600،000 دلار امروزی رو توی یه معامله زمین خواری حبابی بزرگ که
 	<br>
-	speculation frenzy known as the South Sea Bubble of 1720.
+	به اسم "حباب دریای جنوب" شناخته میشه در سال 1720 از دست داد.
 
 	<br><br>
 
-	As Mr. Newton later said: <i>“I can calculate the motion of
+	بعدها جناب نیوتون گفت: <i>"من میتونم حرکت اجرام نجومی رو
 	<br>
-	heavenly bodies, but not the madness of people.”</i>
+	محاسبه کنم، ولی حماقت مردم رو نه!"</i>
 
-	<next>yeah sucks for him <div class="rarr"></div> </next>
+	<next>آره مرد بیچاره! <div class="larr"></div> </next>
 
 </words>
 
@@ -344,203 +344,198 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 
 	<div style="height:0.5em"></div>
 
-	Of course, that's not the only
+	البته که این تنها مثال برای وقتایی
 	<br>
-	time markets, institutions, or entire
+	که یک بازار، سازمان، یا حتی یک دموکراسی
 	<br>
-	democracies went haywire &mdash; the <i>madness</i> of
+	با <i>جنون</i> دسته جمعی مردم به فنا میره نیست. همچنین
 	<br>
-	crowds. And yet, just when you lose hope in humanity,
+	یه وقتایی در حالی که کاملا امید به انسانیت مردم از دست رفته،
 	<br>
-	you see citizens coordinating to rescue each other in
+	مردمی رو می‌بینیم که دست به دست هم میدن تا همدیگه رو از یه طوفان
 	<br>
-	hurricanes, communities creating solutions to problems,
+	نجات بدن، یا برای مشکلاتشون راه حل بسازن، یا مردمی که برای ساخت یه
 	<br>
-	people fighting for a better world &mdash; the <i>wisdom</i> of crowds!
+	دنیای بهتر می‌جنگن! <i>خرد</i> جمعی!
 
 	<div style="height:0.9em"></div>
 
-	<b>But <i>why</i> do some crowds turn to madness, or wisdom?</b> No theory
+	<b>اما چی میشه که ناگهان جمعیت ها به چنین <i>خرد</i> یا <i>جنونی</i> روی میارن؟</b>
 	<br>
-	can explain everything, but I think a new field of study,
+	هیچ نظریه ای نیست که بتونه همه چیز رو توضیح بده، اما فکر کنم شاخه
 	<br>
-	<b>network science</b>, can guide us! And its core idea is this: to
+	جدیدی از مطالعات به نام <b>دانش شبکه</b> بتونه راهنماییمون کنه.
 	<br>
-	understand crowds, we should look not at the <i>individual
+	ایده اصلی این دانش اینه که آدمها رو نباید به عنوان افراد
 	<br>
-	people</i>, but at...
+	جدا بررسی کنیم. پس چی رو باید در نظر بگیریم؟
 
-	<next>...their <i>connections.</i> <div class="rarr"></div> </next>
+	<next>ارتباطاتشون... <div class="larr"></div> </next>
 
 </words>
 
-<!-- Networks -->
+	<!-- Networks -->
 
 <words id="networks_tutorial_start">
-	<b>Let's draw a network!</b>
-	Each connection represents a friendship between two people:
+	<b>بیاید یه شبکه بکشیم!</b>
+	هر ارتباط خطی نماینده یه ارتباط دوستی بین دو نفره:
 </words>
 
 <words id="networks_tutorial_connect">
-	draw to connect
+	برای برقراری ارتباط خط بکشید
 </words>
 
 <words id="networks_tutorial_disconnect">
-	scratch to&nbsp;&nbsp;&nbsp;disconnect
+	برای قطع ارتباط، قطعش کنید
 </words>
 
 <words id="networks_tutorial_end">
 
-	when you're done doodling and playing around,
-	<next wiggle>let's continue <div class="rarr"></div> </next>
+	هر وقت به اندازه کافی با خط ها بازی کردین
+	<next wiggle>ادامه بدیم <div class="larr"></div> </next>
 
 </words>
 
 <words id="networks_threshold">
-
-	Now, social connections are for more than just making pretty pictures.
-	People <i>look to</i> their social connections to understand their world.
-	For example, people look to their peers to
-	find out <b>what % of their friends (not counting themselves)</b> are,
-	say, binge-drinkers. <icon name="yellow"></icon>
-
+	البته ارتباطات اجتماعی فراتر از اینن که فقط برای دورهمی باشن...
+	مردم برای شناخت دنیای خودشون به ارتباطات اجتماعیشون نگاه می‌کنن!
+	به عنوان مثال، مردم برای تشخیص اینکه
+	<b>چند درصد از دوستاشون (بدون احتساب خودشون)</b>
+	خیلی الکل مصرف میکنن، به ارتباطات اجتماعیشون نگاه میکنن.
+	<icon name="yellow"></icon>
 </words>
 
 <words id="networks_threshold_instruction">
-	<b>Draw/erase connections, and see what happens! <div class="rarr"></div> </b>
+	<b>ارتباطات رو ایجاد یا حذف کنید تا ببینید چه اتفاقی میفته! <div class="larr"></div> </b>
 </words>
 
 <words id="networks_threshold_end">
-	<next>cool, got it</next>
+	<next>حله گرفتم!</next>
 </words>
 
 <words id="networks_pre_puzzle">
-	However, networks can <i>fool</i> people.
-	Just like how the earth seems flat because we're on it,
-	people may get wrong ideas about society because they're <i>in</i> it.
+	اما، شبکه های ارتباطی میتونن مردم رو <b>گول بزنن.</b>
+	همونطور که چون ما روی زمین هستیم، زمین صاف به نظر میرسه،
+	مردم ممکنه تصور اشتباهی از جامعه داشته باشن چون <b>توی جامعه</b> قرار گرفتن.
 </words>
 
 <words id="optional_reading">
 	<div style="position:absolute; top:5px;">
-		<i>optional</i> extra bonus notes! &uarr;
+		بیشتر بدانیم! &uarr;
 	</div>
-	<div style="position:absolute; left:216px; top:10px;">
-		&darr; links and references
+	<div style="position:absolute; left:70px; top:10px;">
+		&darr; لینک‌ها و مراجع
 	</div>
 </words>
 
 <words id="networks_pre_puzzle_2">
-	
+
 	<bon id="books"></bon>
 
 	<br>
 
-	For example, a 1991 study<ref id="drunk"></ref> showed that 
-	“virtually all [college] students reported that their friends drank more than they did.”
-	But that seems impossible!
-	How can that be?
-	Well, you're about to invent the answer yourself, by drawing a network.
-	It's time to...
+	مثلا یک مطالعه در سال 1991<ref id="drunk"></ref> نشون داد که
+	"تقریبا تمام دانشجویان اطلاع دادن که دوستانشون بیشتر از خودشون الکل مصرف میکنن."
+	ولی این غیر ممکنه!
+	چه جوری امکان داره؟
+	خوب الان قراره که خودتون با کشیدن یه شبکه جواب رو پیدا کنید.
+	وقتشه که ....
 
-	<next>FOOL EVERYONE <div class="rarr"></div> </next>
+	<next>همه رو گول بزنید! <div class="larr"></div> </next>
 
 </words>
 
 <words id="networks_puzzle">
 
-	<b style="font-size:2em">PUZZLE TIME!</b>
+	<b style="font-size:2em">وقت حل مسئله است!</b>
 	<br>
-	Fool <i>everyone</i> into thinking
-	the majority of their friends (50% threshold) are binge-drinkers <icon name="yellow"></icon>
-	(even though binge-drinkers are outnumbered 2-to-1!)
+	یه کاری کنید که <i>همه</i> فکر کنن
+	اکثر دوستاشون (حداقل 50%) جزو مصرف کنندگان الکلند. <icon name="yellow"></icon>
+	(علی رغم اینکه فقط یک سوم افراد مصرف کنندگان الکلند!)
 
 </words>
 <words id="networks_puzzle_metric">
-	<b>FOOLED:</b>
+	<b>تعداد گول خوردگان: </b>
 </words>
 <words id="networks_puzzle_metric_2">
-	out of 9 people
+	از 9 نفر
 </words>
 <words id="networks_puzzle_end">
-	Congrats! You manipulated a group of students into believing
-	in the prevalance of an incredibly unhealthy social norm! Good going!
-	<next wiggle>...uh. thanks?</next>
+	تبریک! شما کاری کردید که یک گروه از دانشجویان باور کنن یک رفتار بسیار ناسالم اجتماعی در اجتماع نرماله! آفرین!
+	<next wiggle>اممم... ممنون؟</next>
 </words>
 
 <words id="networks_post_puzzle">
 
-	What you just created is called The Majority Illusion<ref id="majority"></ref>,
-	which also explains why people think their political views are consensus,
-	or why extremism seems more common than it actually is.
-	<i>Madness.</i>
+	کاری که الان کردید با اسم "توهم اکثریت" <span style="font-family: PatrickHand;">(The Majority Illusion)</span><ref id="majority"></ref>,
+	شناخته میشه که همین پدیده میتونه توضیح بده چرا مثلا مردم فکر میکنن نظر سیاسی خودشون موافقان بیشتری داره
+	یا چرا معمولا نظرات افراطی، رایج‌تر از چیزی که واقعا هست به نظر میرسن.
+	<i>جنون. </i>
 
 	<bon id="connections"></bon>
 
-	But people don't just passively <i>observe</i> others' ideas and behaviors,
-	they actively <i>copy</i> them.
-	So now, let's look at something network scientists call...
+	و البته در حقیقت مردم فقط به شکل منفعلانه نظرات و رفتار دیگران رو رصد نمیکنن،
+	بلکه به شکل فعالانه از اونها <i>کپی برداری</i> هم میکنن!
+	پس بیاید یه نگاهی بندازیم به پدیده ای که دانشمندان بهش میگن...
 
-	<next>“Contagions!” <div class="rarr"></div> </next>
+	<next>“واگیری!” <div class="larr"></div> </next>
 
 
 </words>
 
-<!-- Simple Contagions -->
+	<!-- Simple Contagions -->
 
 <words id="simple_simple">
-	<i>Let's put aside the "threshold" thing for now.</i>
-	Below: we have a person <icon name="red"></icon> with some information.
-	Some <i>mis</i>information. "Fake news", as the cool kids say.
-	And every day, that person spreads the rumor, like a virus, to their friends.
-	And they spread it to <i>their</i> friends. And so on.
+	<i>خوب بیاید فعلا اون درصدا رو بذاریم کنار.</i>
+	ما اینجا یه آدمی <icon name="red"></icon> داریم که یه اطلاعاتی داره.
+	در واقع یه اطلاعات اشتباه یا شایعه منظورمونه.
+	و حالا این آدم، این شایعه رو مثل یک ویروس به دوستانش منتقل می‌کنه.
+	و این دوستان هم به دوستانشون...
 	<br>
 	<b>
-	Start the simulation! <div class="darr"></div>
-	(p.s: you can't draw <i>while</i> the sim's running)
+	شروع شبیه‌سازی! <div class="darr"></div>
+	(نکته: وقتی شبیه‌سازی در حال اجراست، نمی‌تونین ارتباطات رو تغییر بدین.)
 	</b>
 </words>
 
 <words id="simple_simple_2">
-	Note: despite the negative name, "contagions" can be good or bad (or neutral or ambiguous). 
-	There's strong statistical evidence<ref id="contagion"></ref> that
-	smoking, health, happiness, voting patterns, and cooperation levels
-	are all "contagious" --
-	and even some evidence that suicides<ref id="suicides"></ref> and mass shootings<ref id="shootings"></ref> are, too.
+	توجه:<span style="font-size: 20px;"> با اینکه "واگیری" ممکنه یه کلمه منفی به نظر بیاد، اما این فرآیند می‌تونه هم مثبت باشه هم منفی (یا حتی خنثی یا با اثرمبهم!).
+	از نظر آماری شواهد محکمی<ref id="contagion"></ref> وجود داره که
+	سیگار کشیدن، سلامتی، شادی، الگوهای رای‌دهی، و سطح همکاری افراد، همشون "واگیری" دارن...
+	</span>حتی شواهد نشون میدن خودکشی<ref id="suicides"></ref> و تیر اندازی های کور (Mass Shootings)<ref id="shootings"></ref> هم همینطورن.
 </words>
 
 <words id="simple_simple_end">
-	<next wiggle>well that's depressing <div class="rarr"></div> </next>
+	<next wiggle>خیلی ناراحت کنندست <div class="larr"></div> </next>
 </words>
 
 <words id="simple_cascade">
-	Indeed it is.
-	Anyway, <b>PUZZLE TIME!</b>
+	البته که ناراحت کنندست... به هر حال! <b>یه مسئله دیگه!</b>
 	<br>
-	Draw a network &amp; run the simulation,
-	so that <i>everyone</i> gets infected with the "contagion".
+	طوری شبکه‌سازی کنید که با اجرای شبیه‌سازی، <i>همه</i> دچار "واگیری" خبر بشن.
 	<br>
-	(new rule: you can't cut the <i>thick</i> connections)
+	(قانون جدید: ارتباطات <b>پررنگ</b> رو نمی‌تونید دستکاری کنید.)
 </words>
 
 <words id="simple_cascade_end">
-	<next wiggle>fan-flipping-tastic <div class="rarr"></div> </next>
+	<next wiggle>جالبه! <div class="larr"></div> </next>
 </words>
 
 <words id="simple_post_cascade">
-	This madness-spreading is called an <b>"information cascade"</b>.
-	Mr. Newton fell for such a cascade in 1720.
-	The world's financial institutions fell for such a cascade in 2008.<ref id="subprime"></ref>
+	به اینجور انتشار اطلاعات جنون‌آمیز<b>"آبشار اطلاعاتی"</b> (Information Cascade) گفته میشه.
+	جناب نیوتون هم در سال 1720 دچار چنین آبشاری شد.
+	در سال 2008 هم سازمان‌های مالی دچار همچین آبشاری شدن.<ref id="subprime"></ref>
 	<br><br>
-	However: <i>this simulation is wrong.</i>
-	Most ideas <i>don't</i> spread like viruses.
-	For many beliefs and behaviors, you need to be "exposed" to the contagion more than just once
-	in order to be "infected".
-	So, network scientists have come up with a new, better way to 
-	describe how ideas/behaviors spread, and they call it...
-	<next wiggle>“<i>Complex</i> Contagions!” <div class="rarr"></div> </next>
+	البته: <i>این شبیه‌سازی اشتباهه.</i>
+	اکثر اخبار و اطلاعات اینجوری مثل ویروس انتشار پیدا <i>نمی‌کنن.</i>
+	در مورد بسیاری از باورها یا رفتار، افراد برای اینکه دچار اون رفتار بشن یا اون رو باور کنن، لازمه که بیشتر از یکبار در معرض اون قرار بگیرن.
+	<br>
+	در نتیجه دانشمندان شبکه، راه بهتری برای توصیف نحوه انتشار دیدگاه‌ها یا رفتار
+	پیدا کردن که بهش میگن...
+	<next wiggle>"واگیری <i>پیچیده</i>!" <div class="larr"></div> </next>
 </words>
 
-<!-- Complex Contagions -->
+	<!-- Complex Contagions -->
 
 <words id="complex_complex">
 
@@ -550,18 +545,18 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	<br><br>
 
 	Now, let's simulate what happens if people start drinking
-	<i>when 50%+ of their friends do!</i> 
+	<i>when 50%+ of their friends do!</i>
 	<b>Before you start the sim, ask yourself what you think <i>should</i> happen.</b>
 
 	<br><br>
-	
-	<b>Now, run the sim, and see what actually happens! <div class="rarr"></div> </b>
+
+	<b>Now, run the sim, and see what actually happens! <div class="larr"></div> </b>
 
 </words>
 
 <words id="complex_complex_2">
 	<span style="line-height:1.3em; display:block;">
-		
+
 		Unlike our earlier "fake news" <icon name="red"></icon> contagion,
 		this contagion <icon name="yellow"></icon> does <i>not</i> spread to everyone!
 		The first few people get "infected", because although they're only exposed to one
@@ -605,7 +600,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	<span style="line-height:1.3em; display:block;">
 
 		<b>NOTE:</b> Volunteering is just <i>one</i> of many complex contagions!
-		Others include: voter turnout, lifestyle habits, 
+		Others include: voter turnout, lifestyle habits,
 		challenging your beliefs,
 		taking time to understand an issue deeply &mdash; anything
 		that needs more than one "exposure".
@@ -621,7 +616,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 
 		Now, to <i>really</i> show the power and weirdness of complex contagions, let's revisit...
 
-		<next>...an earlier puzzle <div class="rarr"></div> </next>
+		<next>...an earlier puzzle <div class="larr"></div> </next>
 
 	</span>
 </words>
@@ -637,7 +632,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 </words>
 
 <words id="complex_cascade_end">
-	<next wiggle>HOT DANG <div class="rarr"></div> </next>
+	<next wiggle>HOT DANG <div class="larr"></div> </next>
 </words>
 
 <words id="complex_post_cascade">
@@ -646,7 +641,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	But is that really so? Well, let's revisit...
 </words>
 <words id="complex_post_cascade_end">
-	<next wiggle>...another earlier puzzle <div class="rarr"></div> </next>
+	<next wiggle>...another earlier puzzle <div class="larr"></div> </next>
 </words>
 
 <words id="complex_prevent">
@@ -665,18 +660,18 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 </words>
 
 <words id="complex_prevent_end">
-	<next wiggle>...or death. <div class="rarr"></div> </next>
+	<next wiggle>...or death. <div class="larr"></div> </next>
 </words>
 
 <words id="complex_groupthink">
-		
+
 	The people at NASA were smart cookies.
 	I mean, they'd used Newton's theories to get us to the moon.
 	Anyway, long story short, in 1986,
 	<i>despite warnings from the engineers</i>,
 	they launched the <i>Challenger</i>,
 	which blew up and killed 7 people.
-	The immediate cause: 
+	The immediate cause:
 	it was too cold that morning.
 
 	<div style="height:0.9em"></div>
@@ -692,16 +687,16 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	But how can we "design" for crowd <i>wisdom?</i>
 	In short, two words:
 
-	<next>Bonding &amp; Bridging <div class="rarr"></div> </next>
+	<next>Bonding &amp; Bridging <div class="larr"></div> </next>
 
 </words>
 
-<!-- Bonding & Bridging -->
+	<!-- Bonding & Bridging -->
 
 <words id="bonding_1">
 	&larr; Too few connections, and an idea can't spread.
 	<br>
-	Too many connections, and you get groupthink. <div class="rarr"></div> 
+	Too many connections, and you get groupthink. <div class="larr"></div>
 </words>
 
 <words id="bonding_2">
@@ -720,7 +715,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 </words>
 
 <words id="bridging_1">
-	As you may have already guessed, 
+	As you may have already guessed,
 	the number of connections <i>between</i> groups is called
 	<b>bridging social capital</b>.
 	This is important, because it helps groups break out of their insular echo chambers!
@@ -749,7 +744,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	Congrats, you've just drawn a very special kind of network!
 	Networks with the right mix of bonding and bridging
 	are profoundly important, and they're called...
-	<next wiggle>“Small World Networks” <div class="rarr"></div> </next>
+	<next wiggle>“Small World Networks” <div class="larr"></div> </next>
 
 </words>
 <words id="bb_small_world_1">
@@ -779,7 +774,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	...but <i>THIS:</i>
 </words>
 <words id="bb_small_world_5">
-	
+
 	Network scientists now have a mathematical definition for this ancient wisdom:
 	the <b>small world network</b><ref id="small_world"></ref>.
 	This optimal mix of bonding+bridging describes how
@@ -791,10 +786,10 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 
 </words>
 <words id="bb_small_world_end">
-	<next>ok, let's wrap this up... <div class="rarr"></div> </next>
+	<next>ok, let's wrap this up... <div class="larr"></div> </next>
 </words>
 
-<!-- Sandbox -->
+	<!-- Sandbox -->
 
 <words id="sandbox_caption">
 	(pst... wanna know a secret?<ref id="sandbox"></ref>)
@@ -845,10 +840,10 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	[Space]: Drag &nbsp;&nbsp;&nbsp; [Backspace]: Delete
 </words>
 
-<!-- Conclusion -->
+	<!-- Conclusion -->
 
 <words id="conclusion_1">
-	
+
 	<div style="font-size: 30px;">
 		IN CONCLUSION: it's all about...
 	</div>
@@ -973,28 +968,28 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	<next small>&lt;3</next>
 </words>
 
-<!-- Credits --> 
+	<!-- Credits -->
 
 <words id="credits">
 
-	<div style="text-align:center; color:#fff; letter-spacing: 1px; font-size: 24px; line-height: 27px;">
-	
-		<span style="color:#777; position:relative; top:5px;">
+	<div style="font-family: B Koodak; text-align:center; color:#fff; letter-spacing: 1px; font-size: 24px; line-height: 27px;">
+
+		<span style="font-family: B Koodak; color:#777; position:relative; top:5px;">
 			created by</span>
-		<div style="font-size: 3em; line-height: 1.0em;">
+		<div style="font-family: B Koodak; font-size: 3em; line-height: 1.0em;">
 			NICKY CASE</div>
-		<a target="_blank" href="http://ncase.me" style="text-decoration:none">
+		<a target="_blank" href="http://ncase.me" style="font-family: B Koodak; text-decoration:none">
 			play my other shtuff</a> ·
-		<a target="_blank" href="https://twitter.com/ncasenmare" style="text-decoration:none">
+		<a target="_blank" href="https://twitter.com/ncasenmare" style="font-family: B Koodak; text-decoration:none">
 			follow my tweeter</a>
-		
+
 		<br><br>
 
-		<span style="color:#777; position:relative; top:5px; display: inline-block; margin-top: 15px;">
+		<span style="font-family: B Koodak; color:#777; position:relative; top:5px; display: inline-block; margin-top: 15px;">
 			lots of love and thanks to</span>
-		<div style="font-size: 3em; line-height: 1.0em;">
+		<div style="font-family: B Koodak; font-size: 3em; line-height: 1.0em;">
 			MY PATREON SUPPORTERS</div>
-		<a target="_blank" href="https://www.patreon.com/ncase" style="text-decoration:none">
+		<a target="_blank" href="https://www.patreon.com/ncase" style="font-family: B Koodak; text-decoration:none">
 			help me make more like this! &lt;3</a>
 		<br>
 		<a onclick='publish("reference/show", ["supporters"]);'>
@@ -1004,14 +999,14 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 
 		<br><br>
 
-		<span style="display: inline-block; margin-top: 15px;">
+		<span style="font-family: B Koodak; display: inline-block; margin-top: 15px;">
 			♫ music is
-			<a target="_blank" href="http://freemusicarchive.org/music/Komiku/Tale_on_the_Late/" style="text-decoration:none">
+			<a target="_blank" href="http://freemusicarchive.org/music/Komiku/Tale_on_the_Late/" style="font-family: B Koodak; text-decoration:none">
 				"Friends 2018" and "Friends 2068"</a>
 			by Komiku
 			<br>
 			&lt;/&gt; <i>Crowds</i> is
-			<a target="_blank" href="https://github.com/ncase/crowds" style="text-decoration:none">
+			<a target="_blank" href="https://github.com/ncase/crowds" style="font-family: B Koodak; text-decoration:none">
 				fully open source</a>
 		</span>
 
@@ -1023,15 +1018,15 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 
 </words>
 
-<!-- x. misc -->
+	<!-- x. misc -->
 <words id="WIN">
-	WIN
+	درود!
 </words>
 <words id="sim_start">
-	start simulation
+	شروع شبیه‌سازی
 </words>
 <words id="sim_stop">
-	reset &amp; re-draw
+	دوباره از اول!
 </words>
 <words id="translations_exist">
 	Fan-made translations:
@@ -1050,25 +1045,25 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	(original in English)
 </words>
 
-<!-- - - - - - - -->
-<!-- BONUS BOXES -->
-<!-- - - - - - - -->
+	<!-- - - - - - - -->
+	<!-- BONUS BOXES -->
+	<!-- - - - - - - -->
 
-<!--
-Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
-(And then afterwards, the final thing, translate the References)
--->
+	<!--
+    Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
+    (And then afterwards, the final thing, translate the References)
+    -->
 
 <bonus id="books">
 
 	<h3>
-	A quick response to James Surowiecki's <i>The Wisdom of Crowds</i>
+	پاسخی سریع به <i>خرد جمعی</i> <span style="font-family: PatrickHand;">James Surowiecki</span>
 	</h3>
 
 	<div>
 
-	<img src="sprites/bonus/surowieki.jpg" width="200" height="300" style="float:left; margin-right:1em"/>
-	
+	<img src="sprites/bonus/surowieki.jpg" width="200" height="300" style="font-family: PatrickHand; float:right; margin-right:1em"/>
+
 	First off, I'm not dissing
 	<a target="_blank" href="https://en.wikipedia.org/wiki/The_Wisdom_of_Crowds">
 	this book.</a>
@@ -1111,7 +1106,7 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 <bonus id="connections">
 
 	<h3>
-	What other kinds of connections are there?
+	چه مدل ارتباطات دیگه ای وجود داره؟
 	</h3>
 
 	<div>
@@ -1121,10 +1116,10 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	and that all friendships are equal.
 	But network scientists <i>do</i> consider other ways we can be connected, such as:
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/connection1.png" width="250" height="150" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/connection1.png" width="250" height="150" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>Directional connections.</b> Alice is the boss of Bob, but Bob is not the boss of Alice.
 	Carol is the parent of Dave, but Dave is not the parent of Carol.
 	"Boss" &amp; "parent" are <i>directional</i> relationships:
@@ -1132,19 +1127,19 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	In contrast, "friends" is a <i>bidirectional</i> relationship:
 	the relationship goes both ways. (well, hopefully)
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/connection2.png" width="250" height="150" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/connection2.png" width="250" height="150" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>Weighted connections.</b> Elinor and Frankie are mere acquaintances.
 	George and Harry are Best Friends Forever.
 	Even though there's a "friendship" connection in both cases, the second one is stronger.
 	We say that these two connections have different "weights".
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/map.png" width="200" height="200" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/map.png" width="200" height="200" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	Just remember: <b>all these simulations are wrong.</b> The same way any map is "wrong".
 	You see the map on the left? Buildings aren't gray featureless blocks!
 	Words don't float above the city! However, maps are useful not <i>despite</i> being simplified,
@@ -1161,32 +1156,32 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	</h3>
 
 	<div>
-	
+
 	There are so, so many ways that network scientists can simulate "contagions"!
 	I picked the simplest one, for educational purposes.
 	But here's other ways you could do it:
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/contagion1.png" width="250" height="150" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/contagion1.png" width="250" height="150" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>Contagions with Randomness</b>.
 	Being "exposed" to a contagion doesn't <i>guarantee</i> you'll be infected,
 	it only makes it more <i>likely</i>.
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/contagion2.png" width="250" height="150" style="float:left; margin-right:1em"/>
-	<b>People have different contagion thresholds.</b> 
+	<img src="sprites/bonus/contagion2.png" width="250" height="150" style="font-family: B Koodak; float:left; margin-right:1em"/>
+	<b>People have different contagion thresholds.</b>
 	My simulations pretend that everyone has the same threshold for binge-drinking (50%) or
-	volunteering (25%) or misinformation (0%). 
+	volunteering (25%) or misinformation (0%).
 	Of course, that's not true in real life, and you could make your sim reflect that.
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/contagion3.png" width="250" height="150" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/contagion3.png" width="250" height="150" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>An ecology of contagions.</b>
 	What if there were <i>multiple</i> contagions, with <i>different</i> thresholds?
 	For example, a simple "madness" contagion and a complex "wisdom" contagion.
@@ -1194,36 +1189,36 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	Or vice versa?
 	Can someone be infected with both?
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/contagion4.png" width="250" height="150" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/contagion4.png" width="250" height="150" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>Contagions that mutate and evolve.</b>
 	Ideas don't pass perfectly from one person to another the way a virus does.
 	Like a game of Telephone, the message gets mutated with each re-telling &mdash;
 	and sometimes the mutant will be more infectious than the original!
 	So, over time, ideas "evolve" to be more catchy, copy-able, contagious.
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 
 	</div>
 
 </bonus>
 <bonus id="further_reading">
-	
+
 	<h3>
 	I wanna learn more! What else can I read and/or play?
 	</h3>
-	
+
 	<div>
-	
+
 	This explorable explanation was just a springboard for your curiosity,
 	so you can dive deeper into a vast pool of knowledge!
 	Here's more stuff on networks or social systems:
 
 	<br><br>
 
-	<img src="sprites/bonus/connected.png" width="200" height="200" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/connected.png" width="200" height="200" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>Book:</b>
 	<a target="_blank" href="http://www.connectedthebook.com/">
 	Connected</a>
@@ -1233,75 +1228,77 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	Here's an excerpt: Preface &amp; Chapter 1
 	</a>
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/trust.png" width="200" height="200" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/trust.png" width="200" height="200" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>Interactive:</b>
 	<a target="_blank" href="http://ncase.me/trust/">
 	The Evolution of Trust</a> by Nicky Case (me) (2017).
 	A game about the game theory of how cooperation is built... or destroyed.
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/polygons.png" width="200" height="200" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/polygons.png" width="200" height="200" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	<b>Interactive:</b>
 	<a target="_blank" href="http://ncase.me/polygons/">
 	Parable of the Polygons</a> by Vi Hart and Nicky Case (also me) (2014).
 	A story about how harmless choices can create a harmful world.
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 	<br>
 
-	<img src="sprites/bonus/ee.png" width="200" height="200" style="float:left; margin-right:1em"/>
+	<img src="sprites/bonus/ee.png" width="200" height="200" style="font-family: B Koodak; float:left; margin-right:1em"/>
 	Or, if you just want to see a whole gallery of interactive edu-things, here's
 	<a target="_blank" href="http://explorabl.es/">
 	Explorable Explanations</a>,
 	a hub for learning through play!
 
-	<div style="clear:both"></div>
+	<div style="font-family: B Koodak; clear:both"></div>
 
 	</div>
 
 </bonus>
 
-<!-- - - - - - - -->
-<!-- REFERENCES  -->
-<!-- - - - - - - -->
+	<!-- - - - - - - -->
+	<!-- REFERENCES  -->
+	<!-- - - - - - - -->
 
-<!--
-Final thing! These references also need you to TRANSLATE:
--->
+	<!--
+    Final thing! These references also need you to TRANSLATE:
+    -->
 
-<reference id="drunk">
+<reference id="drunk" dir="ltr">
 
 	<h3>
-	“virtually all [college] students reported that their friends drank more than they did.”
+	"تقریبا تمام دانشجویان اطلاع دادن که دوستانشون بیشتر از خودشون الکل مصرف میکنن."
 	</h3>
 
-	<div>
-	<a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/1758185">
-	“Biases in the perception of drinking norms among college students”</a> by Baer et al (1991)
+	<div style="font-family: PatrickHand;" dir="ltr">
+	<div style="font-family: PatrickHand;" dir="ltr">
+	<a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/1758185" style="font-family: PatrickHand;" dir="ltr">
+	“Biases in the perception of drinking norms among college students”</a> by Baer et al (1991)</div>
 	</div>
 
 </reference>
 <reference id="majority">
 
-	<h3>
+	<h3 style="font-family: PatrickHand;" dir="ltr">
 	“The Majority Illusion”
 	</h3>
 
-	<div>
-	<a target="_blank" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147617">
+	<div style="font-family: PatrickHand;" dir="ltr">
+	<div style="font-family: PatrickHand;" dir="ltr">
+	<a target="_blank" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147617" style="font-family: PatrickHand;" dir="ltr">
 	“The Majority Illusion in Social Networks”</a> by Lerman et al (2016).
 	<br>
-	Related: <a target="_blank" href="https://en.wikipedia.org/wiki/Friendship_paradox">
-	The Friendship Paradox</a>.
+	Related: <a target="_blank" href="https://en.wikipedia.org/wiki/Friendship_paradox" style="font-family: PatrickHand;" dir="ltr">
+	The Friendship Paradox</a>.</div>
 	</div>
 </reference>
 <reference id="contagion">
-	
+
 	<h3>
 	“strong statistical evidence that
 	smoking, health, happiness, voting patterns, and cooperation levels
@@ -1309,11 +1306,11 @@ Final thing! These references also need you to TRANSLATE:
 	</h3>
 
 	<div>
-	
+
 	From Nicholas Christakis and James Fowler's
 	wonderfully-written, layperson-accessible book,
 	<a target="_blank" href="http://www.connectedthebook.com/">
-	Connected</a> (2009). 
+	Connected</a> (2009).
 
 	</div>
 </reference>
@@ -1399,7 +1396,7 @@ Final thing! These references also need you to TRANSLATE:
 	Finally,
 	<a target="_blank" href="https://arxiv.org/pdf/cond-mat/0403699.pdf">
 	“Universal behavior in a generalized model of contagion”</a> by Dodds &amp; Watts (2004)
-	proposes a model that unifies <i>all</i> kinds of contagions: 
+	proposes a model that unifies <i>all</i> kinds of contagions:
 	simple and complex, biological and social!
 
 	</div>
@@ -1641,7 +1638,7 @@ Final thing! These references also need you to TRANSLATE:
 	You give me the freedom to make these weird educational games,
 	so, from the bottom of my heart, thank you. &lt;3
 	<br>
-	<a target="_blank" href="https://www.patreon.com/ncase" style="text-decoration:none">
+	<a target="_blank" href="https://www.patreon.com/ncase" style="font-family: B Koodak; text-decoration:none">
 		(want to support me in making more stuff like this? check out my Patreon!)</a>
 	</div>
 </reference>
