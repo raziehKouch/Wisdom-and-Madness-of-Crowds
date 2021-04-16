@@ -71,29 +71,29 @@ a:hover{
 	background-size: 100% 100%;
 }
 #slideshow .next_button{
-	/*display: inline-block;*/
-	margin: 0 auto;
-	position: relative;
-	top: -10px;
-	width: 300px;
+    /*display: inline-block;*/
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+    width: 300px;
     height: 20px;
     padding: 37px 0 43px 0;
-	background-image: url(../sprites/button_large.png);
-	background-size: 100% auto;
-	text-align: center;
-	line-height: 25px;
+    background-image: url(../sprites/button_large.png);
+    background-size: 100% auto;
+    text-align: center;
+    line-height: 25px;
 }
 #slideshow .next_button:hover{
-	background-position: 0 -100px;
+    background-position: 0 -100px;
 }
 #slideshow .next_button[disabled]{
-	pointer-events: none;
-	opacity: 0.3;
+    pointer-events: none;
+    opacity: 0.3;
 }
 .transitionable{
-	transition: opacity 0.3s ease-in-out,
-			    left 0.3s ease-in-out,
-			    top 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out,
+    left 0.3s ease-in-out,
+    top 0.3s ease-in-out;
 }
 
 #scratch{
@@ -137,8 +137,8 @@ a:hover{
     transform: scale(1.2);
 }
 
-/* Left & Down Arrows */
-.larr, .darr{
+/* Right & Left & Down Arrows */
+.rarr, .larr, .darr{
 	display: inline-block;
 	width: 1em;
 	height: 1em;
