@@ -5,6 +5,12 @@
 	font-weight: 400;
 	src: url(PatrickHand-Regular.ttf) format('truetype');
 }
+@font-face {
+	font-family: "B Koodak";
+	font-style: normal;
+	font-weight: 400;
+	src: url(BKoodak.ttf) format('truetype');
+}
 
 /* HTML & BODY */
 html, body{
@@ -20,7 +26,6 @@ body{
 	font-family: "B Koodak", PatrickHand, Arial;
 	font-size: 22px;
 	line-height: 1.5em;
-
 }
 /* fake bold */
 b, strong{
